@@ -415,3 +415,212 @@ h2 {
 
 
 }
+/* =========================
+   SESSION LIBRARY
+========================= */
+
+
+#session-list {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(
+                280px,
+                1fr
+            )
+        );
+
+    gap: 24px;
+
+}
+
+
+
+/* =========================
+   SESSION CARD
+========================= */
+
+
+.session-card {
+
+
+    background:
+
+        rgba(
+            255,
+            255,
+            255,
+            0.7
+        );
+
+
+    backdrop-filter:
+
+        blur(18px);
+
+
+    border-radius:
+
+        28px;
+
+
+    padding:
+
+        30px;
+
+
+
+    box-shadow:
+
+        0 15px 40px
+        rgba(
+            0,
+            0,
+            0,
+            0.06
+        );
+
+
+    transition:
+
+        transform
+        0.25s
+        ease,
+
+        box-shadow
+        0.25s
+        ease;
+
+
+    cursor:
+
+        pointer;
+
+
+}
+
+
+
+.session-card:hover {
+
+
+    transform:
+
+        translateY(
+            -6px
+        );
+
+
+    box-shadow:
+
+        0 25px 60px
+        rgba(
+            0,
+            0,
+            0,
+            0.12
+        );
+
+
+}
+
+
+
+.session-card h3 {
+
+
+    font-size:
+
+        24px;
+
+
+    letter-spacing:
+
+        -0.5px;
+
+
+    margin-bottom:
+
+        15px;
+
+
+}
+
+
+
+.session-card p {
+
+
+    color:
+
+        #666;
+
+
+    line-height:
+
+        1.5;
+
+
+    margin-bottom:
+
+        25px;
+
+
+}
+
+
+
+/* =========================
+   SESSION META
+========================= */
+
+
+.session-meta {
+
+
+    display:
+
+        flex;
+
+
+    gap:
+
+        10px;
+
+
+}
+
+
+
+.session-meta span {
+
+
+    background:
+
+        rgba(
+            0,
+            0,
+            0,
+            0.05
+        );
+
+
+    padding:
+
+        8px 14px;
+
+
+    border-radius:
+
+        999px;
+
+
+    font-size:
+
+        14px;
+
+
+}
