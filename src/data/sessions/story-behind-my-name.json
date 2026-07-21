@@ -1,0 +1,92 @@
+{
+  "id": "story-behind-my-name",
+
+  "title": "The Story Behind My Name",
+
+  "level": "B2-C1",
+
+  "duration": "60 min",
+
+  "topic": "Identity and Personal Stories",
+
+  "description": "A conversation about names, identity, family stories and personal experiences.",
+
+
+  "scenes": [
+
+    {
+      "id": "welcome",
+
+      "title": "Welcome",
+
+      "blocks": [
+
+        {
+          "type": "quote",
+
+          "content": "Every name carries a story."
+        }
+
+      ]
+    },
+
+
+    {
+      "id": "warm-up",
+
+      "title": "Warm-up",
+
+      "blocks": [
+
+        {
+          "type": "question",
+
+          "content": "What is the story behind your name?"
+        },
+
+
+        {
+          "type": "question",
+
+          "content": "Do you think names influence our identity?"
+        }
+
+      ]
+    },
+
+
+    {
+      "id": "useful-language",
+
+      "title": "Useful Language",
+
+      "blocks": [
+
+        {
+
+          "type": "lexical-card",
+
+          "phrase": "I was named after...",
+
+          "example": "I was named after my grandmother."
+
+        },
+
+
+        {
+
+          "type": "lexical-card",
+
+          "phrase": "My name has a special meaning because...",
+
+          "example": "My name has a special meaning because it represents hope."
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
